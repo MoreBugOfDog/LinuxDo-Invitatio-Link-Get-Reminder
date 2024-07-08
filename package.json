@@ -1,0 +1,22 @@
+{
+  "name": "linuxdo-invitatio-link-get-reminder",
+  "version": "1.0.0",
+  "description": "Get invitation links and alerts by requesting the LinuxDo Public Interest Invitation Link List.",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start index.js",
+    "stop": "forever stop index.js"
+  },
+  "keywords": [
+    "linux-do",
+    "linuxod",
+    "LinuxDo",
+    "fetch"
+  ],
+  "author": "多bug的啸天犬",
+  "license": "MIT",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "node-notifier": "^10.0.1"
+  }
+}
