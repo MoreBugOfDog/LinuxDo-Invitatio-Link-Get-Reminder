@@ -8,7 +8,11 @@ https://linux.do/t/topic/36752?u=furrydoge
 一般只要有一个人贡献，一分钟内就一抢而空了。
 因此，我做了一个脚本，通过请求这个链接池，查询是否有链接可用，一旦查询到就发送**系统级**的通知。
 这样，就能第一时间上线注册，抢先一步了。
-## 安装
+## 环境配置
+1. nodejs ≥ 16
+2. npm
+3. git
+## 使用
 首先，克隆这个储存库并安装依赖
 ```bash
 git clone https://github.com/MoreBugOfDog/LinuxDo-Invitatio-Link-Get-Reminder.git
@@ -32,7 +36,11 @@ But this pool of links, most of the time **there are no invitation links**.
 It's usually empty within a minute if one person contributes.
 So I made a script that queries this pool to see if there are any links available, and sends a **system level** notification as soon as it does.
 This way, you'll be the first to register online and get a head start.
-## Installation
+## Environment configuration
+1. nodejs ≥ 16
+2. npm
+3. git
+## Utilization
 First, clone this repository and install the dependencies
 ```bash
 git clone https://github.com/MoreBugOfDog/LinuxDo-Invitatio-Link-Get-Reminder.git
